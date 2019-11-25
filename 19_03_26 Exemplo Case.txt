@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2019
+Var
+// Seção de Declarações das variáveis 
+     opcao:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreva("digite sua opção:  ")
+ leia (opcao)
+ escolha opcao
+         caso 1
+         escreva("opção1")
+         caso 2
+         escreva("opção2")
+         caso 3
+         escreva("opção3")
+ outrocaso
+ escreva("nenhuma opção escolhida")
+ fimescolha
+Fimalgoritmo

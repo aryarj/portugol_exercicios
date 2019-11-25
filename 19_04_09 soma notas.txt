@@ -1,0 +1,26 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 09/04/2019
+Var
+// Seção de Declarações das variáveis 
+aluno:inteiro
+nota:inteiro
+somatotal:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ aluno<-0
+ somatotal<-0
+ enquanto aluno<5 faca
+ escreval("digite a nota do aluno  " , aluno)
+ leia(nota)
+ somatotal<-somatotal + nota
+ aluno<-aluno+1
+ fimenquanto
+ escreval("soma total =   ", somatotal)
+ escreval ("média =   ", somatotal/aluno)
+ escreva("número de alunos=  ", aluno)
+Fimalgoritmo

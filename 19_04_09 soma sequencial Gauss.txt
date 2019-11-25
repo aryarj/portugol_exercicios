@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 09/04/2019
+Var
+// Seção de Declarações das variáveis 
+numero:inteiro
+
+gauss:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc.
+numero<-0
+gauss<-0
+
+
+escreval("Digite um número par qualquer")
+leia(numero)
+
+gauss<-(numero+1)*numero/2
+escreva("por Gauss teremos que a soma sequêncial é:  ", gauss  ,"   bem mais rápido do que pela soma sequêncial, não?")
+
+Fimalgoritmo

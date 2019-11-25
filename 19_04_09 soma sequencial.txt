@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 09/04/2019
+Var
+// Seção de Declarações das variáveis 
+numero:inteiro
+contador:inteiro
+soma:inteiro
+gauss:real
+opcao:caracter
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc.
+numero<-0
+contador<-0
+soma<-0
+escreval("Digite um número PAR qualquer")
+leia(numero)
+enquanto contador<numero faca
+contador<-contador+1
+soma<-soma+contador
+
+fimenquanto
+escreval("a soma sequencial é:  ",soma)
+
+escreval("vamos tentar por Gauss? Digite 's' para Sim e 'n' para não")
+leia(opcao)
+se opcao = "s" entao
+gauss<-(numero+1)*numero/2
+escreva("por Gauss teremos que a soma sequêncial é:  ", gauss  ,"   bem mais rápido, não?")
+fimse
+Fimalgoritmo

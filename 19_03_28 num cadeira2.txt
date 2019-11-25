@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2019
+Var
+// Seção de Declarações das variáveis 
+setor:inteiro
+cadeira:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   setor<-1
+   cadeira<-1
+  para setor de 1 ate 4 faca
+  para cadeira de 1 ate 200 faca
+  escreval("No Setor   ",setor,"     No cadeira:  ",cadeira)
+  fimpara
+  fimpara
+
+Fimalgoritmo

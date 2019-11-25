@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/03/2019
+Var
+// Seção de Declarações das variáveis 
+numero:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("digite o número inteiro natural")
+leia (numero)
+
+ se (numero mod 2 = 0 ) entao
+ escreva("o  ", numero ,"  é par  ")
+ 
+ senao
+ escreva("o  ", numero ,"  é impar  ")
+ fimse
+ 
+ se numero>0 entao
+ escreva("  e o  ", numero , "  é positivo")
+ 
+ senao
+ escreva("  e o  ", numero , "  é negativo")
+ 
+ fimse
+
+
+Fimalgoritmo

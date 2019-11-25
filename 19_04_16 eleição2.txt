@@ -1,0 +1,113 @@
+Algoritmo "Eleição2"
+//  
+//  
+// Descrição   :Contabiliza votos de uma eleição ficticia (função)
+// Autor(a)    : Ary de Araújo Rodrigues Júnior
+// Data atual  : 16/04/2019
+Var
+// Seção de Declarações das variáveis 
+A:inteiro
+B:inteiro
+C:inteiro
+BR:inteiro
+N:inteiro
+VA:inteiro
+VB:inteiro
+VC:inteiro
+VBR:inteiro
+VN:inteiro
+Voto:inteiro
+FimEleicao:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+VA<-0
+VB<-0
+VC<-0
+VBR<-0
+VN<-0
+FimEleicao<-0
+  enquanto FimEleicao<>10 faca
+      escreval("por favor, digite seu voto")
+      leia (voto)
+      escolha voto
+           caso 1
+           VA<-VA+1
+
+              caso 2
+              VB<-VB+1
+
+                 caso 3
+                 VC<-VC+1
+
+                    caso 4
+                    VBR<-VBR+1
+
+                       outrocaso
+                       VN<-VN+1
+       fimescolha
+
+   escreval("encerrar eleição?")
+   Leia(FimEleicao)
+   fimenquanto
+   
+   se (VA>=VB) e (VB>=VC) e (VA>=VC) entao
+       escreval ("Votos candidato A")
+       escreval (VA)
+       escreval ("Votos candidato B")
+       escreval (VB)
+       escreval ("Votos candidato C")
+       escreval (VC)
+   fimse
+       se (VB>VA) e (VA>=VC) entao
+          escreval ("Votos candidato B")
+          escreval (VB)
+          escreval ("Votos candidato A")
+          escreval (VA)
+          escreval ("Votos candidato C")
+          escreval (VC)
+        fimse
+            se (VB>VA) e (VC>VA) e (VB>=VC) entao
+               escreval ("Votos candidato B")
+               escreval (VB)
+               escreval ("Votos candidato C")
+               escreval (VC)
+               escreval ("Votos candidato A")
+               escreval (VA)
+           fimse
+                se (VC>VA) e (VA>=VB) entao
+                    escreval ("Votos candidato C")
+                    escreval (VC)
+                    escreval ("Votos candidato A")
+                    escreval (VA)
+                    escreval ("Votos candidato B")
+                    escreval (VB)
+                 fimse
+                      se (VA>=VC) e (VA>VB) e (VC>VB) entao
+                         escreval ("Votos candidato A")
+                         escreval (VA)
+                         escreval ("Votos candidato C")
+                         escreval (VC)
+                         escreval ("Votos candidato B")
+                         escreval (VB)
+                      fimse
+                            se (VC>VB) e (VB>VA) entao
+                                escreval ("Votos candidato C")
+                                escreval (VC)
+                                escreval ("Votos candidato B")
+                                escreval (VB)
+                                escreval ("Votos candidato A")
+                                escreval (VA)
+                           fimse
+       escreval ("Votos em Branco")
+       escreval (VBR)
+       escreval ("Votos Nulos")
+       escreval (VN)
+       escreval ("total de votos")
+       escreva (VA+VB+VC+VBR+VN)
+       
+       
+   
+
+
+Fimalgoritmo

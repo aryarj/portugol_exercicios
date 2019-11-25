@@ -1,0 +1,68 @@
+Algoritmo "Eleição"
+//  
+//  
+// Descrição   :Contabiliza votos de uma eleição ficticia (função)
+// Autor(a)    : Ary de Araújo Rodrigues Júnior
+// Data atual  : 16/04/2019
+Var
+// Seção de Declarações das variáveis 
+A:inteiro
+B:inteiro
+C:inteiro
+BR:inteiro
+N:inteiro
+VA:inteiro
+VB:inteiro
+VC:inteiro
+VBR:inteiro
+VN:inteiro
+Voto:inteiro
+FimEleicao:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+VA<-0
+VB<-0
+VC<-0
+VBR<-0
+VN<-0
+FimEleicao<-0
+  enquanto FimEleicao<>10 faca
+      escreval("por favor, digite seu voto")
+      leia (voto)
+           se (Voto=1)entao
+           VA<-VA+1
+           fimse
+           se (Voto=2)entao
+           VB<-VB+1
+           fimse
+           se (voto=3)entao
+           VC<-VC+1
+           fimse
+           se (voto=4)entao
+           VBR<-VBR+1
+           fimse
+           se voto=5 entao
+           VN<-VN+1
+           fimse
+   escreval("encerrar eleição?")
+   Leia(FimEleicao)
+   fimenquanto
+       escreval ("Votos candidato A")
+       escreval (VA)
+       escreval ("Votos candidato B")
+       escreval (VB)
+       escreval ("Votos candidato C")
+       escreval (VC)
+       escreval ("Votos em Branco")
+       escreval (VBR)
+       escreval ("Votos Nulos")
+       escreval (VN)
+       escreval ("total de votos")
+       escreva (VA+VB+VC+VBR+VN)
+       
+       
+   
+
+
+Fimalgoritmo

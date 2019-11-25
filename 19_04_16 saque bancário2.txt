@@ -1,0 +1,38 @@
+Algoritmo "Saque Bancário"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/04/2019
+Var
+// Seção de Declarações das variáveis
+     hora:real
+     saque:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ escreval("digite a hora")
+ leia (hora)
+ escreval("Por favor,digite o valor do saque.")
+ escreval("Para o horário das 6h às 22h o limite máximo é de R$ 5000")
+ escreval("Fora desse horário o limite máximo é de R$ 400")
+ leia(saque)
+  se (hora >=6) e (hora <=22)entao
+    escreval ("Valor máximo para o horário: R$ 5000")
+
+         se (saque) <=5000 entao
+            escreval ("saque permitido")
+         senao
+              escreva("saque não permitido")
+         fimse
+
+ senao
+    escreval ("Valor máximo para o horário: R$ 400")
+
+         se saque <=400 entao
+            escreval ("saque permitido")
+         senao
+            escreval("saque não permitido")
+         fimse
+fimse
+Fimalgoritmo
